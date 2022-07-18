@@ -1,9 +1,12 @@
 import React from 'react'
+import AllProducts from '../../views/AllProducts/AllProducts'
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <div>
+        <AllProducts />
+      </div>
     </div>
   )
 }
