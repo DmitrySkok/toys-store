@@ -12,7 +12,7 @@ const SingleProduct = () => {
 
   return (
     <Row className={`${styles.root}`}>
-      <Col md={12} lg={5} className={`rounded ${styles.imageBlock}`}
+      <Col data-aos="fade-right" data-aos-duration="1000" md={12} lg={5} className={`rounded ${styles.imageBlock}`}
         style={{
           background: `url("${productData.image}") center center/cover no-repeat`,
         }}>
@@ -32,7 +32,7 @@ const SingleProduct = () => {
             ''
         }
       </Col>
-      <Col md={12} lg={7} className={styles.textBlock}>
+      <Col data-aos="fade-left" data-aos-duration="1000" md={12} lg={7} className={styles.textBlock}>
         <Card>
           <Card.Body>
             <Card.Title style={{ color: '#fb0473' }}><h2>{productData.name}</h2></Card.Title>

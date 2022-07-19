@@ -6,9 +6,9 @@ import { discountPrice } from '../../../utils/utils';
 const ProductForm = (props) => {
 
   return (
-    <div className={`col-md-6 col-sm-12 col-lg-4 ${styles.root}`}>
+    <div data-aos="zoom-in" data-aos-duration="1000" className={`col-md-6 col-sm-12 col-lg-4 ${styles.root}`}>
       <div className="card text-black">
-        <div className="card text-black">
+        <div className="card">
           <img src={props.image} className="card-img-top img" alt={props.name} />
           <div className="card-img-overlay">
             {
