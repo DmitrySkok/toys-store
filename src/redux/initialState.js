@@ -69,7 +69,29 @@ const initialState = {
       image: 'https://images.pexels.com/photos/269399/pexels-photo-269399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     }
   ],
-  categories: ['puzzles', 'books', 'wear', 'toys', 'shoes']
+
+  categories: ['puzzles', 'books', 'wear', 'toys', 'shoes'],
+
+  carouselItems: [
+    {
+      id: '1',
+      title: 'New dinosaurs collection',
+      description: 'Does your child love dinosaurs? We have the lowest prices for a collection of dinosaurs',
+      image: 'https://images.pexels.com/photos/8014606/pexels-photo-8014606.jpeg?auto=compress&cs=tinysrgb&w=1980&h=800&dpr=1',
+    },
+    {
+      id: '2',
+      title: 'Cars are not just for boys!',
+      description: 'One of the largest range of cars in the world',
+      image: 'https://images.pexels.com/photos/10216069/pexels-photo-10216069.jpeg?auto=compress&cs=tinysrgb&w=1980&h=800&dpr=1',
+    },
+    {
+      id: '3',
+      title: 'Toys for the youngest children',
+      description: 'Good Toys for Young Children by Age and Stage ',
+      image: 'https://images.pexels.com/photos/3662945/pexels-photo-3662945.jpeg?auto=compress&cs=tinysrgb&w=1980&h=800&dpr=1',
+    }
+  ]
 }
 
 export default initialState;

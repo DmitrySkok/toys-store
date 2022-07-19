@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
@@ -28,21 +28,19 @@ const App = () => {
 
   return (
     <>
-    <Header />
-    <Container>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product/:id" element={<SingleProduct />} />
-        <Route path="/allProducts" element={<AllProducts />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/order" element={<Order />} />
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/categories" element={<Categories />} /> */}
-        <Route path="/category/:categoryName" element={<SingleCategory />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Container>
-    <Footer />
+      <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:id" element={<SingleProduct />} />
+          <Route path="/allProducts" element={<AllProducts />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/order" element={<Order />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/categories" element={<Categories />} /> */}
+          <Route path="/category/:categoryName" element={<SingleCategory />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      <Footer />
     </>
   );
 }

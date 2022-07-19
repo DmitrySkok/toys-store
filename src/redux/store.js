@@ -2,10 +2,12 @@ import { createStore, combineReducers } from 'redux';
 import initialState from './initialState';
 import productsReducer from './productsReducer';
 import categoriesReducer from './categoriesReducer';
+import carouselItemsReducer from './carouselItemsReducer';
 
 const subreducers = {
   products: productsReducer,
-  categories: categoriesReducer
+  categories: categoriesReducer,
+  carouselItems: carouselItemsReducer
 }
 
 const reducer = combineReducers(subreducers);
