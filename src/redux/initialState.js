@@ -65,7 +65,7 @@ const initialState = {
       discount: 5,
       category: 'puzzles',
       age: 13,
-      availability: true,
+      availability: false,
       image: 'https://images.pexels.com/photos/269399/pexels-photo-269399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     }
   ],
