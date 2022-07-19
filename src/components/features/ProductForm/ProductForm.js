@@ -8,14 +8,16 @@ const ProductForm = (props) => {
   return (
     <div className={`col-md-6 col-sm-12 col-lg-4 ${styles.root}`}>
       <div className="card text-black">
-        <img src={props.image} className="card-img-top img" alt={props.name} />
-        <div className="card-img-overlay">
-          {
-            props.discount ?
-            <h5 className="card-title text-muted">discount: {props.discount}%</h5>
-            :
-            ''
-          }
+        <div className="card text-black">
+          <img src={props.image} className="card-img-top img" alt={props.name} />
+          <div className="card-img-overlay">
+            {
+              props.discount ?
+              <h5 className="card-title text-muted">discount: {props.discount}%</h5>
+              :
+              ''
+            }
+          </div>
         </div>
         <div className="card-body">
           <div className="text-center mt-1">
@@ -54,7 +56,12 @@ const ProductForm = (props) => {
             <Link to={`/product/${props.id}`} role="button" className="btn flex-fill text-light me-1" style={{ backgroundColor: '#fb0473' }} >
               More information
             </Link>
-            <button type="button" className="btn btn-primary flex-fill ms-1">Add to cart</button>
+            {
+              props.availability ?
+              <button type="button" className="btn btn-primary flex-fill ms-1">Add to cart</button>
+              :
+              <button type="button" disabled className="btn btn-secondary flex-fill ms-1">Out of stock</button>
+            }
           </div>
         </div>
       </div>
