@@ -91,7 +91,9 @@ const initialState = {
       description: 'Good Toys for Young Children by Age and Stage ',
       image: 'https://images.pexels.com/photos/3662945/pexels-photo-3662945.jpeg?auto=compress&cs=tinysrgb&w=1980&h=800&dpr=1',
     }
-  ]
+  ],
+
+  cartItems: []
 }
 
 export default initialState;
