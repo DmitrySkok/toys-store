@@ -12,13 +12,13 @@ const CarouselForm = () => {
       {carouselItems.map(carouselItem => (
         <Carousel.Item key={carouselItem.name + carouselItem.id}>
         <img
-          className="d-block w-100"
+          className="d-block w-75 rounded-3 mx-auto"
           src={carouselItem.image}
           alt={carouselItem.name}
         />
         <Carousel.Caption>
           <h3 className='text-primary'>{carouselItem.title}</h3>
-          <p className='text-primary'>{carouselItem.description}</p>
+          <h4 className='text-secondary'>{carouselItem.description}</h4>
         </Carousel.Caption>
       </Carousel.Item>
       ))}

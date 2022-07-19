@@ -9,18 +9,18 @@ const initialState = {
       category: 'toys',
       age: 3,
       availability: true,
-      image: 'https://cdn.pixabay.com/photo/2019/10/07/09/01/toy-4532170_960_720.jpg',
+      image: 'https://images.pexels.com/photos/708774/pexels-photo-708774.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
     },
     {
       id: '2',
       name: 'Nike air kids',
-      price: 750,
+      price: 427,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor eros erat, sed euismod nisl dictum at. Nullam lacinia, tortor at ultricies ultricies, lectus odio semper nunc, eget ultrices arcu erat ut purus.',
       discount: 10,
       category: 'shoes',
       age: 10,
       availability: true,
-      image: 'https://images.pexels.com/photos/5117638/pexels-photo-5117638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/5117638/pexels-photo-5117638.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
       size: 15,
     },
     {
@@ -32,7 +32,7 @@ const initialState = {
       category: 'toys',
       age: 3,
       availability: true,
-      image: 'https://images.pexels.com/photos/12211/pexels-photo-12211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/12211/pexels-photo-12211.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
     },
     {
       id: '4',
@@ -43,7 +43,7 @@ const initialState = {
       category: 'wear',
       age: 10,
       availability: true,
-      image: 'https://cdn.pixabay.com/photo/2016/11/29/13/26/attractive-1869831_960_720.jpg',
+      image: 'https://images.pexels.com/photos/6349515/pexels-photo-6349515.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
       size: 120,
     },
     {
@@ -55,7 +55,7 @@ const initialState = {
       category: 'books',
       age: 4,
       availability: true,
-      image: 'https://images.pexels.com/photos/21120/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/21120/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
     },
     {
       id: '6',
@@ -66,7 +66,7 @@ const initialState = {
       category: 'puzzles',
       age: 13,
       availability: false,
-      image: 'https://images.pexels.com/photos/269399/pexels-photo-269399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/269399/pexels-photo-269399.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=1',
     }
   ],
 
